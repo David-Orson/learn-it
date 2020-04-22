@@ -11,6 +11,7 @@ html {
 
 body {
   min-height: 100%;
+  background: #eee;
 }
 
 .primary {
@@ -23,6 +24,14 @@ body {
 
 li {
   list-style-type: none;
+}
+
+.caption {
+  opacity: 54%;
+}
+
+p {
+  opacity: 87%;
 }
 
 a {
@@ -83,5 +92,36 @@ a:hover {
 
 .pp:hover {
   background: #f45300;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.col {
+  padding: 10px;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  background: white;
+  -webkit-box-shadow: 1px 1px 2px 1px #ccc;
+          box-shadow: 1px 1px 2px 1px #ccc;
+}
+
+.card-content {
+  padding: 2px;
+}
+
+.card-title {
+  opacity: 87%;
 }
 /*# sourceMappingURL=main.css.map */

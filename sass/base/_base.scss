@@ -11,6 +11,7 @@ html {
 
 body {
   min-height: 100%;
+  background: #eee;
 }
 
 .primary {
@@ -23,4 +24,12 @@ body {
 
 li {
   list-style-type: none;
+}
+
+.caption {
+  opacity: 54%;
+}
+
+p {
+  opacity: 87%;
 }

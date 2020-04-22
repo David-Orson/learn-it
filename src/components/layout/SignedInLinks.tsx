@@ -8,7 +8,7 @@ const SignedInLinks = () => {
         <NavLink to="/">NEW CARD</NavLink>
         <NavLink to="/">LOG OUT</NavLink>
         <NavLink to="/" className="pp">
-          NN
+          DO
         </NavLink>
       </li>
     </ul>
