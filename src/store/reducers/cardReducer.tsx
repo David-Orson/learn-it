@@ -23,8 +23,13 @@ const cardReducer = (state = initState, action: any) => {
   switch (action.type) {
     case "CREATE_CARD":
       console.log("card created", action.card);
+      return state;
+    case "CREATE_CARD_ERROR":
+      console.log("create error", action.err);
+      return state;
+    default:
+      return state;
   }
-  return state;
 };
 
 export default cardReducer;

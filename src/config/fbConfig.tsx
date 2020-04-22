@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
-const firebaseConfig = {
+const firebaseConfig: any = {
   apiKey: "AIzaSyB9Ftg3dbdsMrwxfpvBoNMgSu5-1HzB3-g",
   authDomain: "learn-it-31224.firebaseapp.com",
   databaseURL: "https://learn-it-31224.firebaseio.com",
@@ -14,8 +14,5 @@ const firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
-
-firebase.firestore().settings({ timestampsInSnapshots: true });
 
 export default firebase;
