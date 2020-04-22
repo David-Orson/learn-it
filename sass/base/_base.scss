@@ -5,6 +5,12 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+h5 {
+  opacity: 87%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 html {
   min-height: 100%;
 }
@@ -32,4 +38,20 @@ li {
 
 p {
   opacity: 87%;
+}
+
+.container {
+  &-spaced {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &-center {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
 }

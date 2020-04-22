@@ -4,7 +4,7 @@ import CardList from "../flash cards/CardList";
 class Dashboard extends Component {
   render() {
     return (
-      <div className="dashboard container">
+      <div className="dashboard container-spaced">
         <div className="row">
           <div className="col">
             <Notifications />

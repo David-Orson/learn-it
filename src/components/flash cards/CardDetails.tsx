@@ -4,7 +4,7 @@ const CardDetails = (props: any) => {
   const id = props.match.params.id;
   return (
     <div>
-      <div className="container">
+      <div className="container-spaced">
         <div className="card">
           <div className="card-content">
             <h4>Card Title - {id}</h4>

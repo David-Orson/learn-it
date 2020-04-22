@@ -6,7 +6,7 @@ import SignedOutLinks from "./SignedOutLinks";
 const Navbar = () => {
   return (
     <nav className="nav-wrapper primary">
-      <div className="container">
+      <div className="container-spaced">
         <Link to="/" className="logo">
           LearnIt
         </Link>
