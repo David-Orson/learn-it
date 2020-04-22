@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.primary {
+  background: $primary;
+}
+
+.right {
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}

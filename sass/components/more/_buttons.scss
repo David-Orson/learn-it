@@ -1,0 +1,14 @@
+a {
+  color: white;
+  text-decoration: none;
+  background-color: $primary;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px;
+  margin-right: 8px;
+  border-radius: 6px;
+
+  &:hover {
+    background: #0086f0;
+  }
+}

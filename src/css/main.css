@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.primary {
+  background: #00a4ff;
+}
+
+.right {
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #00a4ff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px;
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+a:hover {
+  background: #0086f0;
+}
+
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  margin-left: 2px;
+  margin-right: 0px;
+}
+
+.logo:hover {
+  background: #0095ff;
+}
+
+.pp {
+  font-size: 20px;
+  background: #ff5900;
+  border-radius: 100%;
+}
+
+.pp:hover {
+  background: #f45300;
+}
+/*# sourceMappingURL=main.css.map */

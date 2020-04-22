@@ -1,0 +1,35 @@
+.nav-wrapper {
+  display: flex;
+  padding: 14px;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  margin-left: 2px;
+  margin-right: 0px;
+
+  &:hover {
+    background: #0095ff;
+  }
+}
+
+.pp {
+  font-size: 20px;
+  background: $comp;
+  border-radius: 100%;
+
+  &:hover {
+    background: #f45300;
+  }
+}
