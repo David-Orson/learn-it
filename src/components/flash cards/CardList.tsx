@@ -1,12 +1,13 @@
 import React from "react";
 import CardSummary from "./CardSummary";
 
-const CardList = () => {
+const CardList = ({ cards }) => {
   return (
     <div>
-      <CardSummary />
-      <CardSummary />
-      <CardSummary />
+      {cards &&
+        cards.map((card: any) => {
+          return <CardSummary card={card} key={card.id} />;
+        })}
     </div>
   );
 };
