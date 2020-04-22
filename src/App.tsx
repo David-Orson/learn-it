@@ -5,6 +5,7 @@ import Dashboard from "./components/dashboard/Dashboard";
 import CardDetails from "./components/flash cards/CardDetails";
 import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
+import CreateFlashCard from "./components/flash cards/CreateFlashCard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/project/:id" component={CardDetails} />
           <Route path="/signin" component={SignIn} />
           <Route path="/signup" component={SignUp} />
+          <Route path="/create" component={CreateFlashCard} />
         </Switch>
       </div>
     </Router>
