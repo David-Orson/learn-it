@@ -1,6 +1,15 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { createCard } from "../../store/actions/cardActions";
 
-class CreateFlashCard extends Component {
+interface ICreateFlashCardProps {
+  props?: any;
+}
+
+interface ICreateFlashCardState {}
+
+type Props = any;
+class CreateFlashCard extends Component<Props, ICreateFlashCardState> {
   state = {
     title: "",
     content: "",
@@ -14,7 +23,7 @@ class CreateFlashCard extends Component {
 
   handleSubmit = (e: any) => {
     e.preventDefault();
-    console.log(this.state);
+    this.props.createCard(this.state);
   };
 
   render() {
@@ -43,4 +52,10 @@ class CreateFlashCard extends Component {
   }
 }
 
-export default CreateFlashCard;
+const mapDispatchToProps = (dispatch: any) => {
+  return {
+    createCard: (card: any) => dispatch(createCard(card)),
+  };
+};
+
+export default connect(null, mapDispatchToProps)(CreateFlashCard);

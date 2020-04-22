@@ -20,6 +20,10 @@ const initState = {
 };
 
 const cardReducer = (state = initState, action: any) => {
+  switch (action.type) {
+    case "CREATE_CARD":
+      console.log("card created", action.card);
+  }
   return state;
 };
 
