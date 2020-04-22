@@ -55,3 +55,12 @@ p {
     justify-content: center;
   }
 }
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="firstName"]:not(.browser-default):focus:not([readonly]),
+input[type="lastName"]:not(.browser-default):focus:not([readonly]),
+textarea.text-area:focus:not([read-only]) {
+  border-color: $comp;
+}
