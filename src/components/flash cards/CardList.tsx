@@ -1,7 +1,7 @@
 import React from "react";
 import CardSummary from "./CardSummary";
 
-const CardList = ({ cards }) => {
+const CardList = ({ cards }: any) => {
   return (
     <div>
       {cards &&

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardSummary = ({ card }) => {
+const CardSummary = ({ card }: any) => {
   return (
     <div className="card">
       <div className="card-content">

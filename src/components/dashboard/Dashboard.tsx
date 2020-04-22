@@ -8,7 +8,9 @@ interface IDashboardProps {
 }
 
 interface IDashboardState {}
-class Dashboard extends Component<IDashboardProps, IDashboardState> {
+
+type Props = any;
+class Dashboard extends Component<Props, IDashboardState> {
   render() {
     const { cards } = this.props;
     return (
@@ -24,6 +26,10 @@ class Dashboard extends Component<IDashboardProps, IDashboardState> {
       </div>
     );
   }
+}
+
+interface LinkStateProp {
+  cards: any;
 }
 
 const mapStateToProps = (state: any) => {
